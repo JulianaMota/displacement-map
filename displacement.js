@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
   img = new Image();
   map = new Image();
-  img.src = "cat.jpg";
-  map.src = "map.jpg";
+  img.src = "animal-cat-cute-color.png";
+  map.src = "animal-cat-cute-map.png";
   //console.log(img, map);
   //load image events
   img.addEventListener("load", drawImages);
